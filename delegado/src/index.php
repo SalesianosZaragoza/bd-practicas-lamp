@@ -67,10 +67,16 @@ $result = mysqli_query($mysqli, "SELECT * FROM alumno ORDER BY apellido1,apellid
       }
       echo "</tr>";
     }
+
     mysqli_close($msqli);
     ?>
 
     </table>
     </div>
+    <form action="accion.php" method="post">
+         <p>Su nombre: <input type="text" name="nombre" /></p>
+         <p>Su edad: <input type="text" name="edad" /></p>
+         <p><input type="submit" /></p>
+    </form>
   </body>
 </html>
