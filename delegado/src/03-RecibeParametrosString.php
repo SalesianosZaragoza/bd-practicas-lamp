@@ -11,6 +11,9 @@ $nom=$_GET['nombre'];
 echo "<h1>Tu id es $id y tu nombre es $nom</h1>";
 echo "<h1>Tu id es $_GET[id] y tu nombre es $_GET[nombre]</h1>";
 echo "<h1>Tu id es ".$_GET['id']." y tu nombre es  ".$_GET['nombre']."</h1>";
+echo '  <div class="">     ';
+echo "  <div class=''>       ";
+echo "  <div class=\" \">       ";
 ?>
 </BODY>
 </HTML>
